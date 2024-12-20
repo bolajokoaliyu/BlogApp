@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Comment extends Model
 {
-    //
+    // required fields
     protected $fillable = [
     	'post_id',
     	'is_active',
